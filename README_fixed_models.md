@@ -50,7 +50,7 @@ contents should be all listed in 1 column, with no empty lines before or after t
 filename: frequencies.txt
 contents should  be all listed in a matrix way, were each row of values corresponds to each partition (and follows the order of the partitions as entered with the -q option). Each row always has 4 columns, where each value corresponds to p(A), p(C), p(G) and p(T) respectively. It will look like this:
 
-0.252	0.250	 0.246	  0.252
+0.252 0.250	 0.246	  0.252
 0.268	0.227	 0.242    0.263
 0.278	0.261	 0.195    0.266
 0.338	0.232	 0.183    0.246
