@@ -2,6 +2,7 @@ Fix_models_RAxML
 ================
 
 This repository contains modified codes of the master RAxML to make phylogenetic inferences fixing the model. At the moment it only works with nucleotide models.
+It accepts models for single and multiple partitions.
 Please read the information below.
 
 Developed by:
