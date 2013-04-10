@@ -48,7 +48,7 @@ contents should be all listed in 1 column, with no empty lines before or after t
 0.550303
 
 filename: frequencies.txt
-contents should  be all listed in a matrix way, were each row of values corresponds to each partition (and follows the order of the partitions as entered with the -q option). Each row always has 4 columns, where each value corresponds to p(A), p(C), p(G) and p(T) consecutively. It will look like this:
+contents should  be all listed in a matrix way, were each row of values corresponds to each partition (and follows the order of the partitions as entered with the -q option). Each row always has 4 columns, where each value corresponds to p(A), p(C), p(G) and p(T) respectively. It will look like this:
 
 0.252	0.250	 0.246	  0.252
 0.268	0.227	 0.242    0.263
@@ -58,7 +58,7 @@ contents should  be all listed in a matrix way, were each row of values correspo
 Note: no empty lines should be left at the beginning or end, and values are separated by "tab".
 
 filename: rates.txt
-contents should be all listed in a matrix way, were each row of values corresponds to each partition (and follows the order of the partitions as entered with the -q option). Each row always has 6 columns, where value corresponds to the rates of a<->c, a<->g, a<->t, c<->g, c<->t, g<->t consecutively. It will look like this:  
+contents should be all listed in a matrix way, were each row of values corresponds to each partition (and follows the order of the partitions as entered with the -q option). Each row always has 6 columns, where value corresponds to the rates of a<->c, a<->g, a<->t, c<->g, c<->t, g<->t respectively. It will look like this:  
 
 1.683840 5.748882  1.477863   0.988031	  7.5330760 1
 0.896114 1.968979  0.570758   0.519740	  2.7715960 1
