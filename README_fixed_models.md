@@ -40,20 +40,26 @@ To run it:
 For example, for a file that contains 4 gene partitions, you generate 3 files called: "alpha.txt", "frequencies.txt" and "rates.txt".
 
 file name: alpha.txt
+
 Contents should be all listed in 1 column, with no empty lines before or after the values and where each value corresponds to each partition (and follows the order of the partitions as entered with the -q option). 
 To see an example check the file alpha.txt at the repository:
+
 https://github.com/agalychnica/Fix_models_RAxML/blob/master/alpha.txt
 
 filename: frequencies.txt
+
 Contents should  be all listed in a matrix way, were each row of values corresponds to each partition (and follows the order of the partitions as entered with the -q option). Each row always has 4 columns, where each value corresponds to p(A), p(C), p(G) and p(T) respectively. 
 To see an example check the file frequencies.txt at the repository:
+
 https://github.com/agalychnica/Fix_models_RAxML/blob/master/frequencies.txt
 
 Note: no empty lines should be left at the beginning or end, and values are separated by "tab".
 
 filename: rates.txt
+
 Contents should be all listed in a matrix way, were each row of values corresponds to each partition (and follows the order of the partitions as entered with the -q option). Each row always has 6 columns, where value corresponds to the rates of a<->c, a<->g, a<->t, c<->g, c<->t, g<->t respectively.
 To see an example check the file rates.txt at the repository:
+
 https://github.com/agalychnica/Fix_models_RAxML/blob/master/rates.txt
 
 Note: no empty lines should be left at the beginning or	end, and values are separated by "tab".
