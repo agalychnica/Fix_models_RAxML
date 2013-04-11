@@ -18,11 +18,10 @@ Bioinformatics and Molecular Evolution Lab, NUI Maynooth, Ireland.
 ------------------------------------------------------------------
 
 Please note:
-This version of RAxML was hacked from the original standard version that was posted in the github in June 2012. This has not been tried with posterior versions, however it might still work if you want to give it a go!
-The changes in it from the original are in the models.c and optimisemodel.c codes. This works with any of the "flavors" of RAxML (serial, PTHREADS and MPI).
+This version of RAxML was hacked from the original standard version that was posted in the github in June 2012. At the moment we are working on updating the code to work with a more recent version of RAxML.
+But until then, use this version as it has been tested to work. The changes in it from the original are in the models.c and optimizemodel.c codes. This works with any of the "flavors" of RAxML (serial, PTHREADS and MPI).
 
-You need to copy the models.c and optimizeModel.c files in this repository and paste them instead of the ones that come in the original version. 
-Then compile (install) as instructed in the manual (http://sco.h-its.org/exelixis/oldPage/RAxML-Manual.7.0.4.pdf)
+Download all the files in this repository, then compile (install) as instructed in the manual (http://sco.h-its.org/exelixis/oldPage/RAxML-Manual.7.0.4.pdf).
 
 1. raxmlHPC just the standard sequential version, compile it with gcc by typing make -f Makefile.gcc
 for LINUX and MAC.
